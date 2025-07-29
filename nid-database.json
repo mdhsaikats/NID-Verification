@@ -1,0 +1,29 @@
+[
+  {
+    "nid": "1234567890",
+    "name": "Rahim Uddin",
+    "date_of_birth": "1990-01-15",
+    "father_name": "Karim Uddin",
+    "mother_name": "Ayesha Begum",
+    "address": "Dhaka, Bangladesh",
+    "gender": "Male"
+  },
+  {
+    "nid": "9876543210123",
+    "name": "Fatema Khatun",
+    "date_of_birth": "1985-05-20",
+    "father_name": "Jalal Uddin",
+    "mother_name": "Rokeya Begum",
+    "address": "Chittagong, Bangladesh",
+    "gender": "Female"
+  },
+  {
+    "nid": "20202020202020202",
+    "name": "Sabbir Hossain",
+    "date_of_birth": "2000-12-01",
+    "father_name": "Habib Hossain",
+    "mother_name": "Salma Akter",
+    "address": "Khulna, Bangladesh",
+    "gender": "Male"
+  }
+]

@@ -1,13 +1,24 @@
 <!doctype html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+    <div class="min-h-screen flex flex-col items-center justify-center bg-gray-100">
+      <h1 class="text-2xl font-bold mb-6 text-black-700">Bangladesh NID Verification</h1>
+      <hr class="w-95 border-gray-300 mb-6" />
+      <form id="nidForm" class="bg-white p-6 rounded shadow-md w-full max-w-sm">
+        <label for="nidInput" class="block mb-2 text-gray-700 font-semibold">Enter your NID number:</label>
+        <input type="text" id="nidInput" name="nidInput" class="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-400 mb-4" placeholder="NID Number" required />
+        <button type="submit" class="w-full bg-blue-400 text-white py-2 rounded hover:bg-blue-500 transition">Verify</button>
+      </form>
+      <div class="mt-2 flex items-center justify-center">
+        <div id="result" class="mt-4 text-lg font-medium w-95 shadow-md p-4 bg-white rounded">Enter Your NID for result</div>
+      </div>
+      
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
